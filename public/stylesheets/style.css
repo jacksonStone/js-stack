@@ -1,0 +1,190 @@
+html
+{
+  color: #2A2630;
+  text-align: center;
+}
+
+.navbar-default {
+
+  background-color: #EDEDED;
+}
+
+.row {
+  background-color: transparent;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-position: right bottom; /*Positioning*/
+  /*background-attachment:fixed;*/
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+  padding:20px 0px 50px 0px;
+}
+
+
+h1 {
+  padding-top: 50px;
+color: white;
+  font-weight: bolder;
+  font-size: 64px;
+  margin-top:0px;
+}
+h3 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin: 0px 20px 0px 20px;
+  color:#999999;
+  font-weight: bold;
+}
+
+.language-header {
+  color: #B8B8B8;
+  margin-bottom: 5px;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.pois {
+  marign:0 auto;
+}
+
+.row-centered {
+  text-align:center;
+
+}
+
+p {
+  color: #95909E;
+
+}
+
+a {
+  color: inherit;
+  font-weight: bolder;
+  font-weight: 900;
+
+}
+
+
+.year {
+
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.resource {
+  width: 450px;
+  height: 253px;
+
+}
+
+.email {
+	padding-top:0;
+	font-size:15px;
+}
+
+
+@media screen and (max-width: 1420px)  {
+  .resource {
+    width: 350px;
+    height: 199px;
+  }
+
+}
+
+@media screen and (max-width: 1120px)  {
+  .resource {
+    width: 300px;
+    height: 170px;
+  }
+.navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+
+}
+
+@media screen and (max-width: 990px)  {  
+
+.resource {
+    width: 600px;
+    height: 338px;
+  }
+
+body {
+font-size:25px;
+}
+
+.email {
+font-size: 30px;
+}
+
+}
+
+@media screen and (max-width: 700px)  {
+  .resource {
+    width: 450px;
+    height: 253px;
+  }
+
+}
+
+@media screen and (max-width: 550px)  {
+  .resource {
+    width: 350px;
+    height: 199px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .resource {
+    width: 300px;
+    height: 170px;
+
+  }
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+nav {
+  padding: 0px auto;
+
+}
+
+.contact-me {
+  text-align: center;
+  padding: 20px 30px 30px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-me h1 {
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+

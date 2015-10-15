@@ -1,0 +1,19 @@
+<div ng-repeat="years in coolThings" class="year">
+    <h1 ng-attr-id="[[ 'year' + years.year ]]" >[[years.year]]</h1>
+    <div class="language-header">
+
+        Languages Known:
+    </div>
+    <span class="bolder" ng-repeat="lan in years.langues track by $index" ng-sanitize ng-bind-html="sanitize(lan)"></span>
+    <div class="row">
+        <div ng-repeat="pois in years.poi" ng-class="'center col-md-' + [[12/years.poi.length.toString()]]">
+            <h3>[[pois.title]]</h3>
+            <div ng-repeat="addons in pois.additions">
+                <p ng-sanitize ng-bind-html="sanitize(addons)"></p>
+            </div>
+            <div ng-repeat="points in pois.text">
+                <p ng-sanitize ng-bind-html="sanitize(points)"></p>
+            </div>
+        </div>
+    </div>
+</div>
